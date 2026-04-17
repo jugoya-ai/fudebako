@@ -1,0 +1,82 @@
+IMPORTANT NOTICE: The authoritative terms governing the distribution and
+use of fudebako are written in Japanese and published at TERMS.md in this
+repository. The English text below is a reference translation provided
+for the convenience of non-Japanese-speaking readers. In the event of
+any conflict between the two versions, the Japanese version (TERMS.md)
+shall prevail.
+
+---
+
+Copyright © 2026 yonaka15. All rights reserved.
+
+1. License Grant
+
+   Subject to your compliance with these terms, the Author grants you a
+   non-exclusive, non-transferable, royalty-free license to use fudebako
+   for your own purposes, including internal business use. No rights
+   other than those expressly granted herein are conveyed to you.
+
+2. Restrictions
+
+   You may not:
+
+   (a) reverse engineer, decompile, disassemble, or duplicate fudebako,
+       except to the extent such activity is expressly permitted by
+       applicable law;
+
+   (b) sell, sublicense, rent, lease, or otherwise commercially
+       redistribute fudebako, or use fudebako to build a competing
+       product or service, except as expressly approved in writing by
+       the Author;
+
+   (c) remove, alter, or obscure any copyright, trademark, or other
+       proprietary notices contained in fudebako.
+
+3. Third-Party Components
+
+   fudebako incorporates third-party software components licensed to you
+   separately under their own terms. See NOTICES.txt and
+   docs/THIRD_PARTY_LICENSES.md for the complete list and applicable
+   license texts. Nothing in these terms supersedes those third-party
+   licenses.
+
+4. No Warranty
+
+   FUDEBAKO IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY. TO THE MAXIMUM
+   EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR EXPRESSLY DISCLAIMS
+   ALL IMPLIED WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY,
+   NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHOR
+   DOES NOT WARRANT THAT FUDEBAKO WILL MEET YOUR REQUIREMENTS, OPERATE
+   WITHOUT INTERRUPTION, OR BE ERROR-FREE.
+
+5. Limitation of Liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   THE AUTHOR BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, SPECIAL,
+   INDIRECT, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS,
+   REVENUE, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF
+   FUDEBAKO, REGARDLESS OF THE CAUSE OF ACTION AND EVEN IF THE AUTHOR
+   HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+6. Termination
+
+   These terms automatically terminate upon any breach by you of the
+   restrictions in Section 2. Upon termination, you must cease all use
+   of fudebako and destroy all copies in your possession or control.
+
+7. Governing Law
+
+   These terms are governed by the laws of Japan, without regard to its
+   conflict of laws principles. Any disputes arising out of or related
+   to these terms shall be resolved in the competent courts of Japan.
+
+8. Severability
+
+   If any provision of these terms is held unenforceable, the remaining
+   provisions shall remain in full force and effect.
+
+---
+
+The Japanese version of these terms, published at TERMS.md, is the
+authoritative text. This English version is provided for reference only.
