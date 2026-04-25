@@ -1,6 +1,8 @@
+[日本語](README.md) | [English](README_EN.md)
+
 # fudebako
 
-ブラウザ内で動作する Python データ解析ツール。インストール不要、インターネット接続不要。ユーザーのデータはすべてブラウザ内で処理され、外部に送信されることはありません。
+ブラウザ内で動作する Python データ解析ツール。インストール不要、起動後はインターネット接続不要。ユーザーのデータはすべてブラウザ内で処理され、外部に送信されることはありません。
 
 ![fudebako のスクリーンショット](docs/screenshot.png)
 
@@ -14,7 +16,16 @@
 
 ## ダウンロード
 
-[Releases ページ](https://github.com/yonaka15/fudebako/releases/latest) から最新版の `fudebako-vX.Y.Z.html` を取得してください。
+[Releases ページ](https://github.com/jugoya-ai/fudebako/releases/latest) から、用途に応じて以下のいずれかを取得してください。
+
+| エディション | ファイル | サイズ | 想定用途 |
+|------------|---------|------|---------|
+| **fudebako** (推奨) | `fudebako-vX.Y.Z.html` | 約 60 MB | AI 関連ライブラリを含む幅広い Python 用途。`%pip install` による PyPI からの追加インストールに対応 |
+| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | 約 22.7 MB | Python の標準ライブラリのみで完結する用途。最小サイズを優先する場合 |
+
+迷ったら **fudebako** (推奨) を選んでください。`fudebako-lite` は payload を小さく抑えたい場合の選択肢です。
+
+各 Release には対応する `NOTICES.txt` (lite 版は `NOTICES-lite.txt`) が添付されており、第三者ライセンスの全文を収録しています。
 
 ## 動作要件
 
@@ -22,8 +33,7 @@
 |------|------|
 | ブラウザ | Google Chrome / Microsoft Edge / Mozilla Firefox 最新版 |
 | メモリ | 2 GB 以上推奨 |
-| ファイルサイズ | 約 40 MB |
-| ネットワーク | 起動時・実行時ともに不要 |
+| ネットワーク | 起動時・実行時ともに不要 (※ `fudebako` で `%pip install` を使う場合のみ PyPI への通信が発生します) |
 
 ## 使い方
 
@@ -40,13 +50,13 @@
 - [**TERMS.md**](TERMS.md) — 利用規約 (日本語、正本)
 - [**LICENSE**](LICENSE) — 英語参考訳 (齟齬がある場合は TERMS.md が優先)
 - [**docs/THIRD_PARTY_LICENSES.md**](docs/THIRD_PARTY_LICENSES.md) — 同梱される第三者コンポーネントの一覧
-- **NOTICES.txt** — 各 Release に添付。第三者ライセンスの全文を収録
+- **NOTICES.txt** / **NOTICES-lite.txt** — 各 Release に添付。第三者ライセンスの全文を収録
 
 本ソフトウェアは「現状有姿 (AS IS)」で提供されます。詳細は [TERMS.md](TERMS.md) をご確認ください。
 
 ## お問い合わせ
 
-- 不具合報告・機能要望: [Issues](https://github.com/yonaka15/fudebako/issues)
+- 不具合報告・機能要望: [Issues](https://github.com/jugoya-ai/fudebako/issues)
 - 脆弱性報告: [SECURITY.md](SECURITY.md) を参照
 
 ---
