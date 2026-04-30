@@ -32,7 +32,7 @@
 
 | 項目 | 要件 |
 |------|------|
-| ブラウザ | Google Chrome / Microsoft Edge / Mozilla Firefox 最新版 |
+| ブラウザ | Google Chrome 最新版 (推奨)。その他の Chromium ベースブラウザ (Microsoft Edge 等) でも動作しますが、公式サポート対象は Chrome のみです。Firefox / Safari は非対応 |
 | メモリ | 2 GB 以上推奨 |
 | ネットワーク | 起動時・実行時ともに不要 (※ `fudebako` で `%pip install` を使う場合のみ PyPI への通信が発生します) |
 
