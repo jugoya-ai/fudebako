@@ -20,12 +20,13 @@
 
 | エディション | ファイル | サイズ | 想定用途 |
 |------------|---------|------|---------|
-| **fudebako** (推奨) | `fudebako-vX.Y.Z.html` | 約 60 MB | AI 関連ライブラリを含む幅広い Python 用途。`%pip install` による PyPI からの追加インストールに対応 |
-| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | 約 22.7 MB | Python の標準ライブラリのみで完結する用途。最小サイズを優先する場合 |
+| **fudebako** (推奨) | `fudebako-vX.Y.Z.html` | 約 100 MB | AI 関連ライブラリを含む幅広い Python 用途。`%pip install` による PyPI からの追加インストールに対応 |
+| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | 約 25 MB | Python の標準ライブラリのみで完結する用途。最小サイズを優先する場合 |
+| **fudebako-pygame** | `fudebako-pygame-vX.Y.Z.html` | 約 105 MB | **fudebako (推奨) のすべて** に加えて pygame-ce + SDL2 を同梱した上位エディション。AI ライブラリ + `%pip install` + キャンバス描画 (`Pygame` タブ) のすべてが利用可能。pygame-ce は LGPL-2.1 ライセンスを含みます |
 
-迷ったら **fudebako** (推奨) を選んでください。`fudebako-lite` は payload を小さく抑えたい場合の選択肢です。
+迷ったら **fudebako** (推奨) を選んでください。`fudebako-lite` は payload を小さく抑えたい場合、`fudebako-pygame` は **fudebako の機能に加えてキャンバス描画も使いたい場合** の選択肢です。
 
-各 Release には対応する `NOTICES.txt` (lite 版は `NOTICES-lite.txt`) が添付されており、第三者ライセンスの全文を収録しています。
+各 Release には対応する `NOTICES.txt` (lite 版は `NOTICES-lite.txt`、pygame 版は `NOTICES-pygame.txt`) が添付されており、第三者ライセンスの全文を収録しています。
 
 ## 動作要件
 
@@ -50,7 +51,7 @@
 - [**TERMS.md**](TERMS.md) — 利用規約 (日本語、正本)
 - [**LICENSE**](LICENSE) — 英語参考訳 (齟齬がある場合は TERMS.md が優先)
 - [**docs/THIRD_PARTY_LICENSES.md**](docs/THIRD_PARTY_LICENSES.md) — 同梱される第三者コンポーネントの一覧
-- **NOTICES.txt** / **NOTICES-lite.txt** — 各 Release に添付。第三者ライセンスの全文を収録
+- **NOTICES.txt** / **NOTICES-lite.txt** / **NOTICES-pygame.txt** — 各 Release に添付。第三者ライセンスの全文を収録
 
 本ソフトウェアは「現状有姿 (AS IS)」で提供されます。詳細は [TERMS.md](TERMS.md) をご確認ください。
 
