@@ -32,7 +32,7 @@ Each release ships with a corresponding `NOTICES.txt` (or `NOTICES-lite.txt` for
 
 | Item | Requirement |
 |------|-------------|
-| Browser | Latest Google Chrome / Microsoft Edge / Mozilla Firefox |
+| Browser | Latest Google Chrome (recommended). Other Chromium-based browsers (e.g. Microsoft Edge) should work, but only Chrome is officially supported. Firefox / Safari are not supported. |
 | Memory | 2 GB or more recommended |
 | Network | Not required at startup or during execution (network access only occurs when using `%pip install` in `fudebako`) |
 
