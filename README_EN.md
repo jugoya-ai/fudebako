@@ -42,10 +42,6 @@ Each release ships with a corresponding `NOTICES.txt` (or `NOTICES-lite.txt` for
 2. The first launch takes 20–30 seconds to initialize the Python runtime. When ready, "準備完了" (Ready) is displayed.
 3. Enter Python code in the left editor and press `Ctrl + Enter` (macOS: `⌘ + Enter`) to execute.
 
-## Known limitations
-
-- On Safari, the keyboard shortcut `Ctrl + Shift + W` (macOS: `⌘ + Shift + W`) for toggling the right pane (Workspace) may not work, because Safari reserves this combination for window operations. The right pane can also be toggled via the button in the header.
-
 ## License
 
 - [**TERMS.md**](TERMS.md) — Terms of use (Japanese, authoritative original)
