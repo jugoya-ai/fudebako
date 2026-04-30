@@ -20,12 +20,13 @@ From the [Releases page](https://github.com/jugoya-ai/fudebako/releases/latest),
 
 | Edition | File | Size | Intended use |
 |---------|------|------|--------------|
-| **fudebako** (recommended) | `fudebako-vX.Y.Z.html` | ~60 MB | Broad Python use including AI-related libraries. Supports installing additional packages from PyPI via `%pip install`. |
-| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | ~22.7 MB | For use cases that need only Python's standard library. Choose this when minimizing payload size matters most. |
+| **fudebako** (recommended) | `fudebako-vX.Y.Z.html` | ~100 MB | Broad Python use including AI-related libraries. Supports installing additional packages from PyPI via `%pip install`. |
+| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | ~25 MB | For use cases that need only Python's standard library. Choose this when minimizing payload size matters most. |
+| **fudebako-pygame** | `fudebako-pygame-vX.Y.Z.html` | ~105 MB | **Everything in fudebako (recommended)** plus pygame-ce + SDL2. The upper-tier edition with all the AI libraries, `%pip install`, and a dedicated **Pygame** tab for canvas-based rendering. Includes pygame-ce under LGPL-2.1. |
 
-If unsure, choose **fudebako** (recommended). `fudebako-lite` is the option when keeping the payload small is the priority.
+If unsure, choose **fudebako** (recommended). Pick `fudebako-lite` when keeping the payload small is the priority, or `fudebako-pygame` when you want everything in `fudebako` **plus** canvas rendering.
 
-Each release ships with a corresponding `NOTICES.txt` (or `NOTICES-lite.txt` for the lite edition) containing the full text of all third-party licenses.
+Each release ships with a corresponding `NOTICES.txt` (or `NOTICES-lite.txt` for the lite edition, `NOTICES-pygame.txt` for the pygame edition) containing the full text of all third-party licenses.
 
 ## System requirements
 
@@ -50,7 +51,7 @@ Each release ships with a corresponding `NOTICES.txt` (or `NOTICES-lite.txt` for
 - [**TERMS.md**](TERMS.md) — Terms of use (Japanese, authoritative original)
 - [**LICENSE**](LICENSE) — English reference translation (in case of discrepancy, TERMS.md prevails)
 - [**docs/THIRD_PARTY_LICENSES.md**](docs/THIRD_PARTY_LICENSES.md) — List of bundled third-party components
-- **NOTICES.txt** / **NOTICES-lite.txt** — Attached to each release; contains the full text of third-party licenses
+- **NOTICES.txt** / **NOTICES-lite.txt** / **NOTICES-pygame.txt** — Attached to each release; contains the full text of third-party licenses
 
 This software is provided "AS IS." See [TERMS.md](TERMS.md) for details.
 
