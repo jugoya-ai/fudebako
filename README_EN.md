@@ -6,6 +6,14 @@ A Python data analysis tool that runs entirely in your browser. No installation 
 
 ![fudebako screenshot](docs/screenshot.png)
 
+## Try it now
+
+Try fudebako directly in your browser without downloading (lite edition):
+
+**<https://jugoya-ai.github.io/fudebako/>**
+
+Works in environments that block file downloads, and on smartphones. For `%pip install`, AI-related libraries, or the full feature set, use the downloadable editions below.
+
 ## Features
 
 - **Fully local** — No network communication after startup. Usable in environments with restricted external access.
