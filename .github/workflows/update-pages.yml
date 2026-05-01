@@ -3,6 +3,12 @@ name: Update Pages on release
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to mirror to docs/index.html (e.g. v0.4.4)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -13,10 +19,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Resolve tag
+        id: tag
+        run: |
+          if [ -n "${{ github.event.release.tag_name }}" ]; then
+            echo "value=${{ github.event.release.tag_name }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Download lite asset from release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ github.event.release.tag_name }}
+          TAG: ${{ steps.tag.outputs.value }}
         run: |
           mkdir -p /tmp/lite
           gh release download "$TAG" \
@@ -32,7 +47,7 @@ jobs:
 
       - name: Commit and push if changed
         env:
-          TAG: ${{ github.event.release.tag_name }}
+          TAG: ${{ steps.tag.outputs.value }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
