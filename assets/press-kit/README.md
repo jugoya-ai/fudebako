@@ -19,14 +19,17 @@ fudebakoを動画や記事、SNSで紹介してくださる方向けの素材集
 - **ダウンロード**: https://github.com/jugoya-ai/fudebako/releases/latest
 - **お問い合わせ**: support@jugoya.ai
 
+![fudebako デモ](demo/demo-screencast.gif)
+
 ---
 
 ## 素材一覧
 
-### デモ動画
+### デモ動画・GIF
 
 | ファイル | 尺 | 用途 |
 |---|---|---|
+| `demo/demo-screencast.gif` | 約40秒 | コード入力→グラフ出力のスクリーンキャスト |
 | `demo/demo-short.mp4` | 約30秒 | ショート動画・サムネイル切り出し用 |
 | `demo/demo-promo.mp4` | 約12秒 | ロゴ・タイトルカード用 |
 
@@ -34,9 +37,11 @@ fudebakoを動画や記事、SNSで紹介してくださる方向けの素材集
 
 ### スクリーンショット
 
+![fudebako 全体画面](screenshots/screenshot.png)
+
 | ファイル | 内容 |
 |---|---|
-| `screenshots/screenshot.png` | fudebakoの全体画面 |
+| `screenshots/screenshot.png` | fudebakoの全体画面（1920×1080） |
 
 ### ロゴ・ブランド素材
 
