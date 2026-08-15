@@ -28,9 +28,9 @@
 
 | エディション | ファイル | サイズ | 想定用途 |
 |------------|---------|------|---------|
-| **fudebako** (推奨) | `fudebako-vX.Y.Z.html` | 約 100 MB | AI 関連ライブラリを含む幅広い Python 用途。`%pip install` による PyPI からの追加インストールに対応 |
-| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | 約 25 MB | Python の標準ライブラリのみで完結する用途。最小サイズを優先する場合 |
-| **fudebako-pygame** | `fudebako-pygame-vX.Y.Z.html` | 約 105 MB | **fudebako (推奨) のすべて** に加えて pygame-ce + SDL2 を同梱した上位エディション。AI ライブラリ + `%pip install` + キャンバス描画 (`Pygame` タブ) のすべてが利用可能。pygame-ce は LGPL-2.1 ライセンスを含みます |
+| **fudebako** (推奨) | `fudebako-vX.Y.Z.html` | 約 162 MB | AI 関連ライブラリを含む幅広い Python 用途。`%pip install` による PyPI からの追加インストールに対応 |
+| **fudebako-lite** | `fudebako-lite-vX.Y.Z.html` | 約 39 MB | Python の標準ライブラリのみで完結する用途。最小サイズを優先する場合 |
+| **fudebako-pygame** | `fudebako-pygame-vX.Y.Z.html` | 約 171 MB | **fudebako (推奨) のすべて** に加えて pygame-ce + SDL2 を同梱した上位エディション。AI ライブラリ + `%pip install` + キャンバス描画 (`Pygame` タブ) のすべてが利用可能。pygame-ce は LGPL-2.1 ライセンスを含みます |
 
 迷ったら **fudebako** (推奨) を選んでください。`fudebako-lite` は payload を小さく抑えたい場合、`fudebako-pygame` は **fudebako の機能に加えてキャンバス描画も使いたい場合** の選択肢です。
 
