@@ -19,7 +19,7 @@ Works in environments that block file downloads, and on smartphones. For `%pip i
 - **Fully local** — No network communication after startup. Usable in environments with restricted external access.
 - **No installation** — Just double-click a single HTML file to launch.
 - **Python included** — Python 3.13 on WebAssembly handles data preprocessing, statistics, and visualization entirely in the browser.
-- **Plotting** — Static plots via matplotlib, with zoom, pan, and image-save support.
+- **Plotting** (`fudebako` / `fudebako-pygame`) — Static plots via matplotlib, with zoom, pan, and image-save support. matplotlib is bundled in these two editions; `fudebako-lite` ships the Python standard library only and does not include it.
 - **Persistent storage** — A `/drive/` area is preserved within the browser. CSVs and scripts in progress are saved and available on the next launch.
 
 ## Download
